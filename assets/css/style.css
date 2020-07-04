@@ -14,7 +14,6 @@ textarea:focus, button:focus {
 body {
   direction: rtl;
   font-family: "Tajawal", sans-serif;
-  height: 4000px;
 }
 
 .clear {
@@ -114,6 +113,12 @@ img {
 .navbar .search {
   width: 20px;
   height: 20px;
+}
+
+.page-navbar {
+  background-color: #853077;
+  padding-top: 10px;
+  position: unset;
 }
 
 .header {
@@ -545,6 +550,57 @@ img {
   color: #fff;
   border-radius: 25px;
   text-decoration: none;
+}
+
+.login-rigister {
+  margin-top: 70px;
+}
+.login-rigister .login,
+.login-rigister .rigister {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 33px;
+}
+.login-rigister .form-header {
+  color: #853077;
+  font-weight: bold;
+}
+.login-rigister .rigister-login-form .form-group .form-control {
+  height: calc(1.5em + .75rem + 10px);
+  border: 0;
+  border-bottom: 1px solid #afaeae;
+  border-radius: 0;
+}
+.login-rigister .rigister-login-form .remember {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.login-rigister .rigister-login-form .btn {
+  color: #fff;
+  width: 100px;
+}
+.login-rigister .rigister-login-form .btn-login-div {
+  text-align: left;
+}
+.login-rigister .rigister-login-form .btn-submit {
+  text-align: left;
+}
+.login-rigister .rigister-login-form .btn-login {
+  background-color: #6A943E;
+  border: 1px solid #6A943E;
+  margin-bottom: 10px;
+  border-radius: 26px;
+  width: 145px;
+}
+.login-rigister .rigister-login-form .btn-rigister {
+  background-color: #6A943E;
+  border: 1px solid #6A943E;
+  border-radius: 26px;
+  width: 145px;
+  float: right;
 }
 
 footer {

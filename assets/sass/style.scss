@@ -20,7 +20,7 @@ textarea, button {
 body {
   direction: rtl;
   font-family: "Tajawal", sans-serif;
-  height: 4000px;
+  // height: 4000px;
 }
 
 .clear {
@@ -138,6 +138,13 @@ img {
   }
 }
 
+
+.page-navbar{
+  background-color: $secondColor;
+  // height: 70px;
+  padding-top: 10px;
+  position: unset;
+}
 
 
 // start header
@@ -621,6 +628,71 @@ img {
     }
   } 
 }
+
+// start login rigister
+.login-rigister {
+   margin-top: 70px;
+  .login,
+  .rigister {
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 33px;
+  }
+
+  .form-header{
+    color: $secondColor;
+    font-weight: bold;
+  }
+
+  .rigister-login-form {
+    .form-group {
+      .form-control {
+        height: calc(1.5em + .75rem + 10px);
+        border: 0;
+        border-bottom: 1px solid #afaeae;
+        border-radius: 0;
+      }
+    }
+
+    .remember {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      color: #fff;
+      width: 100px;
+    }
+
+    .btn-login-div {
+      text-align: left;
+    }
+
+    .btn-submit {
+      text-align: left;
+    }
+
+    .btn-login {
+      background-color: $mainColor;
+      border: 1px solid $mainColor;
+      margin-bottom: 10px;
+      border-radius: 26px;
+      width: 145px;
+    }
+
+    .btn-rigister {
+      background-color: $mainColor;
+      border: 1px solid $mainColor;
+      border-radius: 26px;
+      width: 145px;
+      float: right;
+    }
+  }
+}
+
 
 
 // statr footer
