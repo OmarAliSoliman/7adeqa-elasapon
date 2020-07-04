@@ -106,94 +106,99 @@
   </nav>
   <!-- end navbar -->
 
-
-  <!-- start login rigister -->
-
-  <div class="login-rigister">
+  <!-- start path  -->
+  <div class="path">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
-          <h5 class="form-header">تسجيل الدخول</h5>
-          <div class="login">
-            <form class="mt-4 rigister-login-form">
-              <div class="row">
-                <div class="col-sm-12 col-lg-12">
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">البريد الالكتروني</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="example@site.com">
-                  </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">كلمة المرور</label>
-                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                  <div class="btn-login-div">
-                    <button type="submit" class="btn btn-login mt-3">دخول</button>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                  <span class="remember">
-                    <input type="checkbox" />
-                    <labl> تذكر كلمة المرور</labl>
-                  </span>
-                  <p>
-                    <a href="#">هل نسيت كلمة المرور</a>
-                  </p>
-                </div>
-              </div>
-            </form>
+        <div class="col-sm-12 col-lg-12">
+          <div>
+            <span class="first"><a href="#">الرئيسية</a></span>
+            <span><a href="#"> تعديل الاعلان</a> </span>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-6">
-          <h5 class="form-header">ليس لديك حساب؟ سجل الان</h5>
-          <div class="rigister">
-            <form class="mt-4 rigister-login-form">
+      </div>
+    </div>
+  </div>
+  <!-- end path -->
+
+  <!-- start seps card -->
+  <div class="steps-card">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-ms-6 mx-auto">
+          <div class="card">
+            <div class="card-header">
+              <h5><img src="./assets/images/Cart-icon.png" alt=""><span>الدفع والتوصيل</span></h5>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <li><span class="st-number">1</span><span class="st-name">سلة الشراء</span></li>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <li><span class="st-number">2</span><span class="st-name">الدفع والتوصيل</span></li>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <li class="last active"><span class="st-number">3</span><span class="st-name">الدفع والانتهاء</span>
+                    </li>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end seps card -->
+
+  <div class="buy-way">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <div class="buy-way-form">
+            <div class="chose-way">
+              <a class="visa active">
+                <i class="fas fa-money-check"></i>
+                <span>بطافة الكترونية</span>
+              </a>
+              <a class="visa">
+                <i class="fas fa-money-bill-alt"></i>
+                <span>دفع نقددي</span>
+              </a>
+            </div>
+            <form action="" class="mt-5">
               <div class="row">
                 <div class="col-sm-12 col-lg-12">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">اسم المستخدم</label>
+                    <label for="exampleInputEmail1">الاسم الظاهر بالبطاقة</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-12">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">رقم البطاقة</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="Omar Ali Soliman">
+                      placeholder="0000-0000-000-000">
                   </div>
                 </div>
-                <div class="col-sm-12 col-lg-12">
+                <div class="col-sm-12 col-lg-8">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">رقم الجوال</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="01098586783">
-                  </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect1">اختر المدينة</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>الدمام</option>
-                      <option>جدة</option>
-                      <option>الرياض</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">البريد الالكتروني</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    <label for="exampleInputEmail1">تاريخ انتهاء البطاقة</label>
+                    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                       placeholder="example@site.com">
                   </div>
                 </div>
-                <div class="col-sm-12 col-lg-12">
+                <div class="col-sm-12 col-lg-4">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">كلمة المرور</label>
-                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="exampleInputEmail1">CVV</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="?">
                   </div>
                 </div>
-                <div class="col-sm-12 col-lg-12">
-                  <div class="btn-submit">
-                    <button type="submit" class="btn btn-rigister mt-3">تسجيل</button>
-                  </div>
+                <div class="col-sm-12 col-lg-12 text-center mt-4">
+                  <button type="submit" class="btn">الدفع والشراء</button>
                 </div>
               </div>
             </form>
@@ -203,7 +208,6 @@
     </div>
   </div>
 
-  <!-- end login rigister -->
 
   <!-- start  -->
   <div class="priveldges">
@@ -256,7 +260,6 @@
   </div>
   <!-- start  -->
 
-
   <!-- start subscribe -->
   <div class="subscribe">
     <div class="container">
@@ -293,7 +296,6 @@
     </div>
   </div>
   <!-- end subscribe -->
-
 
   <!-- start footer -->
   <footer class="page-footer">
@@ -337,22 +339,24 @@
           </ul>
         </div>
         <div class="col-sm-12 col-lg-12">
-          <div class="visa-card">
-            <div class="row">
-              <div class="col-sm-12 col-lg-6">
-                <div class="social-icons">
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-snapchat"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
+          <div class="col-sm-12 col-lg-12">
+            <div class="visa-card">
+              <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                  <div class="social-icons">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-snapchat"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-12 col-lg-6">
-               <div class="visa-card-image">
-                <img src="./assets/images/visa.png" alt="">
-                <img src="./assets/images/visa2.png" alt="">
-                <img src="./assets/images/visa3.png" alt="">
-               </div>
+                <div class="col-sm-12 col-lg-6">
+                 <div class="visa-card-image">
+                  <img src="./assets/images/visa.png" alt="">
+                  <img src="./assets/images/visa2.png" alt="">
+                  <img src="./assets/images/visa3.png" alt="">
+                 </div>
+                </div>
               </div>
             </div>
           </div>
@@ -362,11 +366,11 @@
   </footer>
   <!-- end footer -->
 
-
   <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/plugin.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 
