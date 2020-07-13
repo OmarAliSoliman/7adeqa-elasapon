@@ -183,8 +183,8 @@ img {
   background-size: cover;
 }
 .header .header-content {
-  padding-top: 250px;
-  width: 40%;
+  padding-top: 200px;
+  width: 80%;
 }
 .header .header-content h5 {
   font-size: 30px;
@@ -192,8 +192,9 @@ img {
   font-weight: bold;
 }
 .header .header-content p {
-  font-size: 20px;
+  font-size: 17px;
   color: #fff;
+  line-height: 30px;
 }
 .header .header-content .btn-more {
   background-color: #6A943E;
@@ -1320,27 +1321,28 @@ img {
 .buy-way .head {
   padding-bottom: 10px;
 }
-.buy-way .buy-way-form {
-  width: 60%;
+.buy-way .nav-pills {
+  width: 30%;
   margin: auto;
-  margin-top: 60px;
+  padding-right: 15px;
+  margin-top: 50px;
 }
-.buy-way .buy-way-form .chose-way {
-  text-align: center;
-}
-.buy-way .buy-way-form .chose-way a {
+.buy-way .nav-pills .nav-item .nav-link {
   border: 1px solid #BABABA;
   padding: 10px;
   margin: 5px;
   border-radius: 5px;
-  margin-top: 10px;
   border-radius: 26px;
   cursor: pointer;
 }
-.buy-way .buy-way-form .chose-way .active {
+.buy-way .nav-pills .active {
   background-color: #853077;
   color: #fff;
   border: 1px solid #853077;
+}
+.buy-way .buy-way-form {
+  width: 60%;
+  margin: auto;
 }
 .buy-way .buy-way-form .form-control {
   text-align: center;
@@ -1351,6 +1353,21 @@ img {
   background-color: #DDD;
 }
 .buy-way .buy-way-form .btn {
+  background-color: #853077;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 26px;
+}
+.buy-way .cash-form {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+.buy-way .cash-form h5 {
+  font-size: 18px;
+}
+.buy-way .cash-form .btn {
   background-color: #853077;
   color: #fff;
   width: 100%;
@@ -1895,6 +1912,12 @@ footer .visa-card img {
     text-align: right;
     margin-top: 10px;
   }
+
+  .buy-way .nav-pills {
+    width: 50% !important;
+    margin: auto;
+    margin-top: 30px;
+  }
 }
 @media (max-width: 524px) {
   .top-header .top-header-option {
@@ -1916,6 +1939,12 @@ footer .visa-card img {
     content: "";
   }
 
+  .buy-way .nav-pills {
+    width: 100% !important;
+    margin: auto;
+    margin-top: 30px;
+  }
+
   .buy-way .buy-way-form {
     width: 100%;
   }
@@ -1933,6 +1962,11 @@ footer .visa-card img {
   .account .my-account-tabs #my-product .card .card-body ul li {
     width: 100%;
     float: none;
+    margin-top: 10px;
+  }
+
+  .chose-xl {
+    display: block;
     margin-top: 10px;
   }
 }
