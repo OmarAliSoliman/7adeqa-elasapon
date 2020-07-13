@@ -149,10 +149,9 @@ img {
   background-color: transparent;
   padding-top: 37px;
 }
-.navbar .navbar-brand {
-  width: 89px;
+.navbar .navbar-brand img {
+  width: 120px;
   height: 70px;
-  margin-top: -10px;
 }
 .navbar .navbar-nav {
   margin: auto;
@@ -1775,7 +1774,7 @@ footer .logo {
 }
 footer .logo img {
   width: 127px;
-  height: 100px;
+  height: 80px;
 }
 footer ul {
   text-align: center;
