@@ -31,7 +31,7 @@ img {
 
 .path {
   text-align: right;
-  background-color: #6A943E;
+  background-color: #853077;
   padding: 15px;
 }
 .path span::before {
@@ -77,11 +77,11 @@ img {
   border-radius: 50%;
   color: #000;
   margin-right: 5px;
-  border: 1px solid #853077;
+  border: 1px solid #ACCE39;
 }
 .pagination .active .page-link {
-  background-color: #853077 !important;
-  border: 1px solid #853077 !important;
+  background-color: #ACCE39 !important;
+  border: 1px solid #ACCE39 !important;
   color: #fff;
 }
 
@@ -140,7 +140,7 @@ img {
   padding-right: 10px !important;
 }
 .top-header .top-header-login ul li:nth-last-child(2) a {
-  color: #6A943E;
+  color: #ACCE39;
 }
 
 .navbar {
@@ -150,8 +150,8 @@ img {
   padding-top: 37px;
 }
 .navbar .navbar-brand img {
-  width: 120px;
-  height: 70px;
+  width: 140px;
+  height: 80px;
 }
 .navbar .navbar-nav {
   margin: auto;
@@ -161,7 +161,7 @@ img {
   color: #fff;
 }
 .navbar .navbar-nav .active .nav-link {
-  background-color: #6A943E;
+  background-color: #853077;
   color: #fff;
   border-radius: 20px;
 }
@@ -171,13 +171,13 @@ img {
 }
 
 .page-navbar {
-  background-color: #853077;
+  background-color: #ACCE39;
   padding-top: 10px;
   position: unset;
 }
 
 .header {
-  background-image: linear-gradient(to right, rgba(133, 48, 119, 0.5), #853077), url("../images/header.png");
+  background-image: linear-gradient(to right, rgba(172, 206, 57, 0.3), #acce39, #acce39), url("../images/header.png");
   height: 650px;
   background-size: cover;
 }
@@ -196,7 +196,7 @@ img {
   line-height: 30px;
 }
 .header .header-content .btn-more {
-  background-color: #6A943E;
+  background-color: #853077;
   height: 45px;
   width: 168px;
   color: #fff;
@@ -272,7 +272,7 @@ img {
   margin: 0;
 }
 .last-added .last-added-slider .slider-item .card .card-footer .add-to-cart-col {
-  background-color: #853077;
+  background-color: #ACCE39;
   border-bottom-left-radius: 15px;
   padding-left: 0;
   padding-right: 0;
@@ -280,7 +280,7 @@ img {
   line-height: 40px;
 }
 .last-added .last-added-slider .slider-item .card .card-footer .add-to-cart {
-  background-color: #853077;
+  background-color: #ACCE39;
   color: #fff;
 }
 .last-added .last-added-slider .slider-item .card .card-footer .add-to-cart img {
@@ -378,7 +378,7 @@ img {
   color: #853077;
 }
 .last-offers .last-offers-slider .card .card-body .add-to-cart {
-  background-color: #853077;
+  background-color: #ACCE39;
   color: #fff;
   display: inline-block;
   width: 126px;
@@ -388,7 +388,7 @@ img {
   line-height: 40px;
   position: absolute;
   left: 10px;
-  bottom: 30px;
+  bottom: 20px;
 }
 .last-offers .last-offers-slider .card .card-body .add-to-cart img {
   width: 20px;
@@ -427,7 +427,7 @@ img {
   position: absolute;
   left: 0;
   top: 0;
-  color: #6A943E;
+  color: #ACCE39;
   text-decoration: none;
 }
 .most-sells .show-all::before {
@@ -473,8 +473,8 @@ img {
   height: 58px;
 }
 .department-product .department-product-slider .card:hover {
-  background-color: #6A943E;
-  border: 1px sold #6A943E;
+  background-color: #ACCE39;
+  border: 1px sold #ACCE39;
 }
 .department-product .department-product-slider .card:hover img {
   filter: brightness(0) invert(1);
@@ -506,7 +506,7 @@ img {
 }
 
 .priveldges {
-  background-color: #853077;
+  background-color: #ACCE39;
   height: 470px;
   margin-top: 60px;
   padding: 85px;
@@ -590,7 +590,7 @@ img {
   bottom: 0;
   right: 0;
   transform: translate(0%, -50%);
-  background-color: #6A943E;
+  background-color: #ACCE39;
 }
 .subscribe .main-card .input-group {
   border-radius: 38px;
@@ -602,7 +602,7 @@ img {
   border: 0;
 }
 .subscribe .main-card .input-group-append .input-group-text {
-  background-color: #6A943E;
+  background-color: #ACCE39;
   color: #fff;
   border-radius: 25px;
   text-decoration: none;
@@ -645,15 +645,15 @@ img {
   text-align: left;
 }
 .login-rigister .rigister-login-form .btn-login {
-  background-color: #6A943E;
-  border: 1px solid #6A943E;
+  background-color: #ACCE39;
+  border: 1px solid #ACCE39;
   margin-bottom: 10px;
   border-radius: 26px;
   width: 145px;
 }
 .login-rigister .rigister-login-form .btn-rigister {
-  background-color: #6A943E;
-  border: 1px solid #6A943E;
+  background-color: #ACCE39;
+  border: 1px solid #ACCE39;
   border-radius: 26px;
   width: 145px;
   float: right;
@@ -726,7 +726,7 @@ img {
   margin-bottom: 20px;
 }
 .product-details .product-details-content .price h5 {
-  color: #6A943E;
+  color: #ACCE39;
   font-weight: bold;
   font-size: 25px;
 }
@@ -974,7 +974,7 @@ img {
   background-color: #ccc;
 }
 .search-result .filter .panel-collapse .container input:checked ~ .checkmark {
-  background-color: #853077;
+  background-color: #ACCE39;
 }
 .search-result .filter .panel-collapse .checkmark:after {
   content: "";
@@ -996,7 +996,7 @@ img {
   transform: rotate(45deg);
 }
 .search-result .filter .btn {
-  background-color: #6A943E;
+  background-color: #ACCE39;
   color: #fff;
   margin-top: 50px;
   border-radius: 26px;
@@ -1063,7 +1063,7 @@ img {
   margin: 0;
 }
 .search-result .result .card .card-footer .add-to-cart-col {
-  background-color: #853077;
+  background-color: #ACCE39;
   border-bottom-left-radius: 15px;
   padding-left: 0;
   padding-right: 0;
@@ -1071,7 +1071,7 @@ img {
   line-height: 40px;
 }
 .search-result .result .card .card-footer .add-to-cart {
-  background-color: #853077;
+  background-color: #ACCE39;
   color: #fff;
 }
 .search-result .result .card .card-footer .add-to-cart img {
@@ -1130,8 +1130,8 @@ img {
   content: "";
 }
 .steps-card .card-body .active .st-number {
-  background-color: #6A943E;
-  border: 1px solid #6A943E;
+  background-color: #ACCE39;
+  border: 1px solid #ACCE39;
   color: #fff;
 }
 
@@ -1155,7 +1155,7 @@ img {
   font-weight: bold;
 }
 .cart-table .btn {
-  background-color: #6A943E;
+  background-color: #ACCE39;
   border-radius: 26px;
   color: #fff;
 }
@@ -1258,7 +1258,7 @@ img {
 .pill-buers-info .buers-info .card .card-header .new-address {
   position: absolute;
   left: 1%;
-  color: #6A943E;
+  color: #ACCE39;
   top: 50%;
   transform: translate(-1%, -50%);
 }
@@ -1299,7 +1299,7 @@ img {
   font-weight: bold;
 }
 .pill-buers-info .bills .card .card-body ul .total-price {
-  color: #6A943E;
+  color: #ACCE39;
   font-size: 20px;
 }
 .pill-buers-info .bills .card .card-body .more-copon {
@@ -1335,9 +1335,9 @@ img {
   cursor: pointer;
 }
 .buy-way .nav-pills .active {
-  background-color: #853077;
+  background-color: #ACCE39;
   color: #fff;
-  border: 1px solid #853077;
+  border: 1px solid #ACCE39;
 }
 .buy-way .buy-way-form {
   width: 60%;
@@ -1409,7 +1409,7 @@ img {
 }
 .account .log-out .btn {
   background-color: transparent;
-  color: #6A943E;
+  color: #ACCE39;
   padding: 15px;
   width: 100%;
 }
@@ -1440,7 +1440,7 @@ img {
   top: 50%;
   transform: translate(-5%, -50%);
   font-size: 14px;
-  color: #6A943E !important;
+  color: #ACCE39 !important;
   text-decoration: none;
 }
 .account .my-account-tabs #my-account .my-account-details .card .card-body .namt {
@@ -1685,7 +1685,7 @@ img {
   text-align: right;
 }
 .rate-product .form-rate .btn-submit .btn {
-  background-color: #853077;
+  background-color: #ACCE39;
   border-radius: 26px;
   color: #fff;
   width: 130px;
@@ -1707,7 +1707,7 @@ img {
 }
 .list-contact .contact-information .card .header-i {
   font-size: 30px;
-  color: #890A37;
+  color: #ACCE39;
   margin-bottom: 10px;
 }
 .list-contact .contact-information .card h6 {
@@ -1721,7 +1721,7 @@ img {
   margin-top: 15px;
 }
 .list-contact .contact-information .card .social span a {
-  color: #6A943E;
+  color: #ACCE39;
   font-size: 25px;
   margin-left: 10px;
 }
@@ -1757,7 +1757,7 @@ img {
   margin-top: 30px;
 }
 .form-contact-page .my-contact-form .btn-submit .btn {
-  background-color: #853077;
+  background-color: #ACCE39;
   width: 140px;
   color: #fff;
   padding: 10px;
@@ -1774,7 +1774,7 @@ footer .logo {
 }
 footer .logo img {
   width: 127px;
-  height: 80px;
+  height: 90px;
 }
 footer ul {
   text-align: center;
@@ -1985,7 +1985,7 @@ footer .visa-card img {
   bottom: 0;
   left: 50%;
   transform: translate(0%, -50%);
-  background-color: #6A943E;
+  background-color: #ACCE39;
 }
 
 .last-added .last-added-slider .slick-arrow:before, .last-offers .last-offers-slider .slick-arrow:before, .most-sells .show-all::before, .department-product .department-product-slider .slick-arrow:before, .steps-card .card-body ul li::after, .rate-product .rate-product-card .rate-header:before {
@@ -2000,7 +2000,7 @@ footer .visa-card img {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: #853077;
+  background-color: #ACCE39;
 }
 
 .account .my-account-tabs #my-account, .account .my-account-tabs #my-product, .account .my-account-tabs #fav-product, .account .my-account-tabs .av-product-class, .account .my-account-tabs #comment-rate {

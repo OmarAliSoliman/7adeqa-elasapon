@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Tajawal&display=swap";
 
-$mainColor: #6A943E;
+$mainColor: #ACCE39;
 $secondColor: #853077;
 
 @font-face {
@@ -45,7 +45,7 @@ img {
 
 .path {
   text-align: right;
-  background-color: $mainColor;
+  background-color: $secondColor;
   padding: 15px;
 
   span {
@@ -107,14 +107,14 @@ img {
       border-radius: 50%;
       color: #000;
       margin-right: 5px;
-      border: 1px solid $secondColor;
+      border: 1px solid $mainColor;
     }
   }
 
   .active {
     .page-link {
-      background-color: $secondColor !important;
-      border: 1px solid $secondColor !important;
+      background-color: $mainColor !important;
+      border: 1px solid $mainColor !important;
       color: #fff;
     }
   }
@@ -197,8 +197,8 @@ img {
   .navbar-brand{
     // margin-top: -10px;
     img{
-      width: 120px;
-      height: 70px;
+      width: 140px;
+      height: 80px;
     }
   }
   .navbar-nav{
@@ -211,7 +211,7 @@ img {
     }
     .active{
       .nav-link{
-        background-color: $mainColor;
+        background-color: $secondColor;
         color: #fff;
         border-radius: 20px;
       }
@@ -225,7 +225,7 @@ img {
 
 
 .page-navbar{
-  background-color: $secondColor;
+  background-color: $mainColor;
   // height: 70px;
   padding-top: 10px;
   position: unset;
@@ -234,7 +234,7 @@ img {
 
 // start header
 .header{
-  background-image:linear-gradient(to right, rgba(133, 48, 119, .5), rgba(133, 48, 119, 1)), url('../images/header.png');
+  background-image:linear-gradient(to right, rgba(172, 206, 57, .3), rgba(172, 206, 57, 1), rgba(172, 206, 57, 1)), url('../images/header.png');
   height: 650px;
   background-size: cover;
   .header-content{
@@ -251,7 +251,7 @@ img {
       line-height: 30px;
     }
     .btn-more{
-      background-color: #6A943E;
+      background-color: $secondColor;
       height: 45px;
       width: 168px;
       color: #fff;
@@ -336,7 +336,7 @@ img {
             margin: 0;
           }
           .add-to-cart-col{
-            background-color: $secondColor;
+            background-color: $mainColor;
             border-bottom-left-radius: 15px;
             padding-left: 0;
             padding-right: 0;
@@ -344,7 +344,7 @@ img {
             line-height: 40px;
           }
           .add-to-cart{
-            background-color: $secondColor;
+            background-color: $mainColor;
             color: #fff;
             img{
               width: 20px;
@@ -456,7 +456,7 @@ img {
           color: $secondColor;
         }
         .add-to-cart{
-          background-color: $secondColor;
+          background-color: $mainColor;
           color: #fff;
           display: inline-block;
           width: 126px;
@@ -466,7 +466,7 @@ img {
           line-height: 40px;
           position: absolute;
           left: 10px;
-          bottom: 30px;
+          bottom: 20px;
           img{
             width: 20px;
             height: 16px;
@@ -607,7 +607,7 @@ img {
 
 // satrt priveldges
 .priveldges{
-  background-color: $secondColor;
+  background-color: $mainColor;
   height: 470px;
   margin-top: 60px;
   padding: 85px;
@@ -1149,7 +1149,7 @@ img {
 
       /* When the checkbox is checked, add a blue background */
       .container input:checked~.checkmark {
-        background-color: $secondColor;
+        background-color: $mainColor;
       }
 
       /* Create the checkmark/indicator (hidden when not checked) */
@@ -1250,7 +1250,7 @@ img {
           margin: 0;
         }
         .add-to-cart-col{
-          background-color: $secondColor;
+          background-color: $mainColor;
           border-bottom-left-radius: 15px;
           padding-left: 0;
           padding-right: 0;
@@ -1258,7 +1258,7 @@ img {
           line-height: 40px;
         }
         .add-to-cart{
-          background-color: $secondColor;
+          background-color: $mainColor;
           color: #fff;
           img{
             width: 20px;
@@ -1601,9 +1601,9 @@ img {
       }
     }
     .active{
-      background-color: $secondColor;
+      background-color: $mainColor;
       color: #fff;
-      border: 1px solid $secondColor
+      border: 1px solid $mainColor;
     }
   }
 
@@ -2018,7 +2018,7 @@ img {
     .btn-submit{
       text-align: right;
       .btn{
-        background-color: $secondColor;
+        background-color: $mainColor;
         border-radius: 26px;
         color: #fff;
         width: 130px;
@@ -2046,7 +2046,7 @@ img {
 
       .header-i {
         font-size: 30px;
-        color: #890A37;
+        color: $mainColor;
         margin-bottom: 10px;
       }
 
@@ -2114,7 +2114,7 @@ img {
       margin-top: 30px;
 
       .btn {
-        background-color: $secondColor;
+        background-color: $mainColor;
         width: 140px;
         color: #fff;
         padding: 10px;
@@ -2134,7 +2134,7 @@ footer{
     margin-bottom: 36px;
     img{
       width: 127px;
-      height: 80px;
+      height: 90px;
     }
   }
   ul{
@@ -2393,7 +2393,7 @@ footer{
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: $secondColor;
+  background-color: $mainColor;
 }
 
 
