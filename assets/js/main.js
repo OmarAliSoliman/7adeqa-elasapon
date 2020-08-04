@@ -264,4 +264,17 @@ $(document).ready(function () {
   // $("#example").htmlNumberSpinner();
   // $("#example2").htmlNumberSpinner();
 
+
+  if($('.search-box').length){
+    let searchBoxOpen = false;
+    $('.search img').on('click', function(){
+      if(!searchBoxOpen){
+        $('.search-box').css('display', 'block');
+      }else{
+        $('.search-box').css('display', 'none');
+      }
+      searchBoxOpen=!searchBoxOpen;
+    })
+  }
+
 });

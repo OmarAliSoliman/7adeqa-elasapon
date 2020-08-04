@@ -168,6 +168,29 @@ img {
 .navbar .search {
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+.navbar .navbar-collapse {
+  position: relative;
+}
+.navbar .search-box {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 40%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+.navbar .search-box button {
+  background-color: #853077;
+  color: #fff;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .page-navbar {
@@ -1821,6 +1844,10 @@ footer .visa-card img {
 }
 
 @media (max-width: 800px) {
+  .search-box {
+    width: 100% !important;
+  }
+
   .top-header {
     height: auto;
   }
@@ -1828,7 +1855,7 @@ footer .visa-card img {
   .navbar {
     height: auto;
     position: unset;
-    background-color: #853077;
+    background-color: #ACCE39;
     padding-top: 10px;
   }
   .navbar .navbar-nav {
