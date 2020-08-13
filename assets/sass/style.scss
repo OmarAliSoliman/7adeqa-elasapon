@@ -192,8 +192,8 @@ img {
 .navbar{
   position: absolute;
   width: 100%;
-  background-color: transparent;
-  padding-top: 37px;
+  background-color: $mainColor;
+  padding-top: 5px;
   .navbar-brand{
     // margin-top: -10px;
     img{
@@ -257,7 +257,7 @@ img {
 
 // start header
 .header{
-  background-image:linear-gradient(to right, rgba(172, 206, 57, .3), rgba(172, 206, 57, 1), rgba(172, 206, 57, 1)), url('../images/header.png');
+  background-image:linear-gradient(to right, rgba(133, 48, 119, .3), rgba(133, 48, 119, 1), rgba(133, 48, 119, 1)), url('../images/header.png');
   height: 650px;
   background-size: cover;
   .header-content{
@@ -274,7 +274,7 @@ img {
       line-height: 30px;
     }
     .btn-more{
-      background-color: $secondColor;
+      background-color: $mainColor;
       height: 45px;
       width: 168px;
       color: #fff;
@@ -630,7 +630,7 @@ img {
 
 // satrt priveldges
 .priveldges{
-  background-color: $mainColor;
+  background-color: $secondColor;
   height: 470px;
   margin-top: 60px;
   padding: 85px;
